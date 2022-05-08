@@ -18,10 +18,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Code</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Code</segments>
         </dataPath>
         <extendedTooltip>
           <name>КодРасширеннаяПодсказка</name>
@@ -69,10 +67,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Активность</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Активность</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -137,7 +133,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
+        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -151,10 +147,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Description</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Description</segments>
         </dataPath>
         <extendedTooltip>
           <name>НаименованиеРасширеннаяПодсказка</name>
@@ -206,10 +200,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ТипМетрики</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ТипМетрики</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТипМетрикиРасширеннаяПодсказка</name>
@@ -264,10 +256,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.МетодПолученияМетрики</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.МетодПолученияМетрики</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -319,10 +309,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПерсональноеРасписание</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПерсональноеРасписание</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <handlers>
@@ -385,11 +373,10 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>AlwaysHorizontal</group>
           <representation>NormalSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
-          <currentRowUse>Auto</currentRowUse>
+          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -417,7 +404,7 @@
         <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <currentRowUse>Auto</currentRowUse>
+        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -465,7 +452,6 @@
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
           <pictureSize>Proportionally</pictureSize>
-          <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
       <items xsi:type="form:Decoration">
@@ -542,11 +528,10 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>AlwaysHorizontal</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
+        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -575,7 +560,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -586,10 +571,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Алгоритм</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Алгоритм</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -782,7 +765,7 @@
         <name>ВыполнитьПроверкуАлгоритма</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

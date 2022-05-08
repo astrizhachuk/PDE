@@ -3,7 +3,6 @@
   <producedTypes>
     <managerType typeId="dbe296b9-a7ed-4476-9059-64434794cdf6" valueTypeId="fb5c155f-1af8-47a5-bfde-ece6a33c31d0"/>
     <valueManagerType typeId="4f8f3f0d-c5c7-4cd2-a5ac-9e6029766538" valueTypeId="08d776bb-ae89-4ceb-8042-997b22e9b4af"/>
-    <valueKeyType typeId="cf116d58-8c87-4ca9-9a01-0b0dd57f274f" valueTypeId="e3c6ed73-d121-4ee9-b23e-8bd04a1b5952"/>
   </producedTypes>
   <name>пэмПутьНаСервереPushgateway</name>
   <synonym>

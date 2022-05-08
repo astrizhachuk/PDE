@@ -3,7 +3,6 @@
   <producedTypes>
     <managerType typeId="a1ac6fbe-8ab2-48c6-a2eb-5b5d9abb5535" valueTypeId="81df94f4-5a73-43a4-8c04-b3fa530fddce"/>
     <valueManagerType typeId="e8a757f9-28fa-49af-b576-6913055ee7bd" valueTypeId="d81f2fea-dff7-4ed5-9e42-03290e98f929"/>
-    <valueKeyType typeId="d753b518-edf8-4b4c-8ab2-90b6bf967cdf" valueTypeId="8993c49e-52ff-478a-a0b0-4a82ca7cd293"/>
   </producedTypes>
   <name>пэмПортСервераPushgateway</name>
   <synonym>

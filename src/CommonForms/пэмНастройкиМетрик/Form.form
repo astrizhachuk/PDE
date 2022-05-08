@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Константы.пэмИспользоватьPushgateway</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Константы.пэмИспользоватьPushgateway</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -75,10 +73,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Константы.пэмАдресСервераPushgateway</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Константы.пэмАдресСервераPushgateway</segments>
           </dataPath>
           <extendedTooltip>
             <name>пэмАдресСервераPushgatewayРасширеннаяПодсказка</name>
@@ -132,10 +128,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Константы.пэмПортСервераPushgateway</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Константы.пэмПортСервераPushgateway</segments>
           </dataPath>
           <extendedTooltip>
             <name>пэмПортСервераPushgatewayРасширеннаяПодсказка</name>
@@ -215,7 +209,7 @@
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
+          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -230,10 +224,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Константы.пэмПутьНаСервереPushgateway</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Константы.пэмПутьНаСервереPushgateway</segments>
         </dataPath>
         <extendedTooltip>
           <name>пэмПутьНаСервереPushgatewayРасширеннаяПодсказка</name>
@@ -289,10 +281,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Использование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Использование</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <handlers>
@@ -413,7 +403,7 @@
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
+          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -442,7 +432,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
+        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -477,7 +467,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -495,10 +485,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Константы.пэмМногопоточныйРасчетМетрик</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Константы.пэмМногопоточныйРасчетМетрик</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -559,13 +547,12 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>AlwaysHorizontal</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -702,7 +689,7 @@
         <name>ВыполнитьПервоначальноеЗаполнение</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
