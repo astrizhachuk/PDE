@@ -6,12 +6,6 @@
       "Typo": {
         "minWordLength": 4,
         "userWordsToIgnore": "Выводитель"
-      },
-      "LineLength": {
-        "maxLineLength": 140
-      },
-      "ConsecutiveEmptyLines": {
-        "allowedEmptyLinesCount": 2
       }
     }
   }
