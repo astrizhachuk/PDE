@@ -52,6 +52,7 @@
   <commonModules>CommonModule.пэмМетрикиКлиент</commonModules>
   <commonModules>CommonModule.пэмМетрикиСерверПовтИсп</commonModules>
   <commonModules>CommonModule.пэмМетрикиВызовСервера</commonModules>
+  <commonModules>CommonModule.КодыСостоянияHTTPКлиентСерверПовтИсп</commonModules>
   <httpServices>HTTPService.Prometheus</httpServices>
   <scheduledJobs>ScheduledJob.пэмВыполнитьРасчетМетрик</scheduledJobs>
   <scheduledJobs>ScheduledJob.пэмРегламентныеОперации</scheduledJobs>
