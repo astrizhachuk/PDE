@@ -10,7 +10,7 @@ on:
 
 jobs:
   SonarScanner:
-    if: github.repository == 'freewms/PDE'
+    if: github.repository == 'a.strizhachuk/PDE'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
