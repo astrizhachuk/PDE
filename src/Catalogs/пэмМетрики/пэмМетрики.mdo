@@ -125,6 +125,67 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <tabularSections uuid="0f9a5008-76a1-4f29-a86f-895e1b6ffa21">
+    <producedTypes>
+      <objectType typeId="1bb2d74b-4231-4101-b061-74be991a4f9a" valueTypeId="22017ee4-8e6c-4c8f-bd70-d2121aafe342"/>
+      <rowType typeId="6aaf6330-bb8d-492c-a5ac-1ede7c0f4690" valueTypeId="57d76171-7ddc-4c1f-ace0-4cdbd87af80a"/>
+    </producedTypes>
+    <name>ПараметрыАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры алгоритма</value>
+    </synonym>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="80a08f1c-1438-443c-8a6a-33610115b9f6">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="999bbb78-0744-4c35-86e4-7cd54264928d">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="4a7af4c1-7ea9-4d1e-a7ce-48dce4157b27">
     <name>ФормаЭлемента</name>
     <synonym>
